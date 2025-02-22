@@ -11,11 +11,17 @@ depending On Your Choice of Currency, it might pick up data from different sourc
 when the script runs, it asks you to choose one of the following currencies and click enter
 **Current Currencies that are supported:
 > [!IMPORTANT]
-> ['EUR/USD', 'USD/JPY', 'GOLD', 'BTC/USD']
+> 1. EUR/USD
+> 2. USD/JPY
+> 3. GOLD
+> 4. BTC/USD
 
 **Current Websites that are Used to gather information:
 > [!IMPORTANT]
-> ['https://www.fxstreet.com', 'www.forexfactory.com', 'www.myfxbook.com', 'https://finviz.com']
+> 1. https://www.fxstreet.com
+> 2. www.forexfactory.com
+> 3. www.myfxbook.com
+> 4. https://finviz.com
 
 
 ### Prerequisites
@@ -23,6 +29,14 @@ Make sure you have the following installed:
 - Python 3.x
 - Playwright
 - Other dependencies (listed in `requirements.txt`)
+
+> [!WARNING]
+> + the PlayWright Uses AdBlock "UBlock origin"
+> + **example**: use "adblock_path = '/Users/YOUR_USERNAME/CJPALHDLNBPAFIAMEJDNHCPHJBKEIAGM_1_62_0_0'" in code <br>
+> + change YOUR_USERNAME to your username in the code (you can use new versions of the plugin) <br>
+> + you can download it, and unzip it from here: [CRX uBlock Origin for Chrome](https://www.crx4chrome.com/crx/31931/) <br>
+> + Convert it into zip, then unzip it here [Convert CRX to Zip](https://www.ezyzip.com/convert-crx-to-zip.html) <br>
+
 
 ### Installation
 Clone the repository and install dependencies:
