@@ -565,3 +565,5 @@ if __name__ == "__main__":
         extension_path=adblock_path,
         user_agent=my_user_agent
     )
+
+print("\n", "Done", "\n")
