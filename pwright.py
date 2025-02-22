@@ -554,7 +554,7 @@ if __name__ == "__main__":
 
     my_ip = get_my_ip()
     country, timezone = get_country_and_timezone_by_ip(my_ip)
-    adblock_path = "/Users/johanvillibert/CJPALHDLNBPAFIAMEJDNHCPHJBKEIAGM_1_62_0_0"
+    adblock_path = "/Users/username_hidden/CJPALHDLNBPAFIAMEJDNHCPHJBKEIAGM_1_62_0_0"
     my_user_agent = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
